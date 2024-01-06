@@ -5,8 +5,10 @@ body{
     font-family: 'Forum', serif;
 }
 .hero{
-    height: 90vh;
+    min-height: 90vh;
     background-color: rgb(25, 197, 140);
+    color: white;
+    display: inline-block;
 }
 .navbar{
     display: flex;
@@ -39,8 +41,102 @@ body{
     padding: 0 15%;
 }
 .tline{
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: white;
     letter-spacing: 2px;
     padding: 32px 0;
+}
+.two-column-sect{
+    font-size: 1.5rem;
+    padding: 0;
+}
+.two-column-sect > p{
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+}
+.two-column-sect .skill{
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    padding: 0;
+    list-style: none;
+}
+.two-column-sect .skill li{
+    width: 50%;
+    float: left;
+    font-size: 0.75rem;
+    margin: 8px 0;
+}
+.blog{
+    background-color: white;
+    padding: 64px 0;
+}
+.bcontent{
+    padding: 0 15%;
+}
+.two-column-sect .blogposts{
+    width: 50%;
+    float: left;
+}
+.btitle{
+    font-size: 1.3rem;
+}
+.btext{
+    font-size: 0.8rem;
+}
+.blogposts{
+    margin-top: 16px;
+}
+.blogposts .bdate{
+    font-size: 0.7rem;
+    color: grey;
+    margin-bottom: 32px;
+}
+.blogposts p{
+    margin: 8px 0;
+}
+
+.events{
+    background-color: rgb(114, 224, 188);
+    padding: 64px 0;
+    display: inline-block;
+    width: 100%;
+}
+.events-content{
+    padding: 0 15%;
+    margin-bottom: 0;
+}
+.events-card {
+    width: 50%;
+    float: left;
+    margin-top: 16px;
+}
+.events-card p{
+    margin: 8px 0;
+}
+.etitle{
+    font-size: 1.3rem;
+}
+.elocation{
+    font-size: 0.8rem;
+}
+.events-card .edate{
+    font-size: 0.7rem;
+    color: grey;
+    margin-bottom: 32px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 60px;
+    margin: 0;
+}
+.fcontent{
+    text-align: center;
+}
+footer img{
+    width: 2rem;
+    height: 2rem;
+    margin: 0 8px;
 }
